@@ -1,0 +1,44 @@
+name: world_airports
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  generic_bloc_provider: ^1.0.9
+  dio: ^3.0.10
+
+
+  # Bloc
+  bloc: ^6.0.3
+  flutter_bloc: ^6.0.6
+  equatable: ^1.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/david.jpg
+    - assets/img/ann.jpg
+    - assets/img/girl.jpg
+    - assets/img/airport1.jpg
+    - assets/img/airport2.jpg
+    - assets/img/airport3.jpg
+    - assets/img/airport4.jpg
+    - assets/img/airport5.jpg
+    - assets/img/moi.jpg
+    - assets/img/Maria.jpeg
+  fonts:
+    - family: Lato
+      fonts:
+      - asset: fonts/Lato-Regular.ttf
